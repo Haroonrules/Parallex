@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="video-container" id="video-container">
+        <video src="/landscape/intro-vid.mp4" autoplay="1" muted id="bg-video"></video>
+    </div>
+    <div class="container">
+        <section class="curtain" id="curtain"></section>
+        <section class="panel first" id="first-img">
+            <img src="/landscape/1.png" alt="" class="first-img" id="myImage">
+        </section>
+        <section class="panel boat-container">
+            <img src="/landscape/2.png" alt="" id="myImage2">
+            <img src="assets/Boat.png" alt="" class="boat">
+        </section>
+        <section class="panel purple">
+            <img src="/landscape/3.png" alt="" id="myImage3">
+        </section>
+        <section class="panel purple">
+            <img src="/landscape/4.png" alt="" id="myImage4">
+        </section>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
